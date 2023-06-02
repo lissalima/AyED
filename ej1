@@ -1,0 +1,14 @@
+#include <iostream>
+/*ejemplo de 
+comentario en más de una linea*/
+using namespace std;
+
+int main()
+{
+    cout << "Ingrese un valor en mm: ";
+    float mm;
+    cin >> mm;
+    float pul = mm / 25.4;
+    cout << mm << "mm equivale a " << pul << "\"" << endl;
+    return 0;
+}
